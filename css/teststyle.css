@@ -1,0 +1,37 @@
+p {
+  font-size: 30px;
+  color: blueviolet;
+  background-color: black;
+  text-align: right;
+}
+
+/*div {
+  border: 10px solid rgb(177, 9, 171);
+  width: 20%;
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgb(177, 118, 9);
+} */
+
+h1 {
+  text-shadow: -10px -10px 5px gray;
+}
+
+.container {
+  display: flex;
+  background-color: aqua;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.container div {
+  background-color: blue;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+}
+.container .second {
+  flex: 2;
+}
